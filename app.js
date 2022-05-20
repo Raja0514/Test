@@ -1,10 +1,10 @@
-//server creation
+//Server creation
 const express = require("express");
 const app = express();
 app.listen(8080, () => {
   console.log("Server Running on port 8080");
 });
-//db connection
+//DB connection
 const DB = require("./DB/mongoose");
 //Json usage
 app.use(express.json());
